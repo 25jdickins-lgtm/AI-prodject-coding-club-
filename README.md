@@ -4,7 +4,7 @@ from google import genai
 # 1. Initialize the client (looks for GEMINI_API_KEY environment variable)
 client = genai.Client()
 
-print("🤖 AI Bot Initialized! Type 'quit' to exit.")
+print(" AI Bot Initialized! Type 'quit' to exit.")
 
 while True:
     user_input = input("\nYou: ")
